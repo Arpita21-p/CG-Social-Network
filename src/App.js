@@ -1,31 +1,4 @@
-// import React from 'react';
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import Navbar from './components/Navbar';
-// import Home from './components/Home';
-// import Members from './components/Members';
-// import Groups from './components/Groups';
-// import Photos from './components/Photos';
-// import Profile from './components/Profile';
-// import SignIn from './components/SignIn';
-// import SignUp from './components/SignUp';
-// const App = () => {
-//  return (
-// <Router>
-// {/* <Header /> */}
-// <Navbar />
-// <Routes>
-// <Route path="/" element={<Home />} />
-// <Route path="/members" element={<Members />} />
-// <Route path="/groups" element={<Groups />} />
-// <Route path="/photos" element={<Photos />} />
-// <Route path="/profile" element={<Profile />} />
-// <Route path="/signin" element={<SignIn />} />
-// <Route path="/signup" element={<SignUp />} />
-// </Routes>
-// </Router>
-//  );
-// };
-// export default App;
+
 import React, { useState } from 'react';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
